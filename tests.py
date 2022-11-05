@@ -4,12 +4,21 @@ Calificación del laboratorio
 """
 
 import sys
-import pandas as pd
 
 import preguntas
 
 
 def test_01():
+    """
+    ---< Input/Output test case >----------------------------------------------------
+    Pregunta 01
+    pip3 install scikit-learn pandas numpy
+    python3 tests.py 01
+    (139,)
+    (139,)
+    (139, 1)
+    (139, 1)
+    """
     preguntas.pregunta_01()
 
 
